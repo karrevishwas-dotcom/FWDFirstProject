@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    
+    <style>
+        
+        
+        body{
+    border-collapse: collapse;
+    text-align:justify;
+    text-decoration:black;
+    margin:250px;
+    margin-top:20px;
+    padding-left:50px;
+    border: 80px;
+}
+fieldset{
+    margin:20px,auto;
+    background-color:skyblue;
+    width:100%;
+    border-left:40px;
+    padding:80px;
+}
+button:hover{
+    background-color:greenyellow;
+}
+h2{
+   color:darkmagenta; 
+}
+legend{
+    padding:60px;
+}
+div{
+    padding:40px;
+}
+*{
+    background-color:aquamarine;
+}
+    </style>
+</head>
+<body>
+    <form action="mega.html" method="GET" onsubmit="return validateForm()"></form>
+    <h2><center>LOGIN</center></h2>
+    <form action="mega.html" Method="GET">
+      
+           <fieldset>
+           
+<div class="username">
+    <label for ="username">Username</label>
+    <input type="text" name="uname" id="username" required>
+</div>
+<div>
+        <label for="gender">CASH ON DELIVERY</label>
+        <input type="radio" name="uname" id="gender"><br>
+     
+       </div>
+       <div>
+        <label for ="gender">ONLINE PAYMENTS </label>
+        <img src="QR-code images.png" height="250px"width="50%" alt="flower.jpg">
+        <input type="radio" name="uname" id="gender">
+       </div>
+       <div>
+        <label for ="contact">CONTACT</label>
+        <input type ="tel" name="contact" id="contact" placeholder="+913456778">
+       </div>
+       <div>
+        <label for = "email">EMAIL</label>
+        <input type="email" name-"email" id="email">
+       </div>
+       <div>
+        <label for="place">PLACE OF ORDER</label>
+        <select name="locality" id="place">
+        <option>hyderabad</option>
+        <option>Sangareddy</option>
+        <option>Kamareddy</option>       
+        <option>Shamshabad</option>
+        <option>Nalgonada</option>
+        <option>Golkonda</option>
+        <option>Ramnagar</option>
+        <option>Nizambad</option>
+        </select>
+       </div>
+       <div>
+        <label for="img">PHOTO OF LOCATION</label>
+        <input type ="file" name="photo" id="img">
+       </div>
+       <div>
+        <label for="img">PHOTO OF ORDERED PERSON</label>
+        <input type ="file" name="photo" id="img">
+       </div>
+<div class="Button">
+    <button type="Submit">PLACED THE ORDERED</button>
+    <button type="Reset">Reset</button>
+</div>
+
+</fieldset>
+    </form>
+   
+
+    
+</body>
+</html>
